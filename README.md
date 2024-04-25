@@ -60,6 +60,7 @@ Session Hijacking: User agent comparison ($_SERVER['HTTP_USER_AGENT']) is perfor
 Team Leader: Rithu Reddy Vundavelli
 1. A screenshot demo for the login system working on the HTTPS team’s local domain
 
+<img width="462" alt="image" src="https://github.com/vundavry/waph-team31/assets/156153374/440c9c93-cc03-46ad-bc5a-68fc3fc2a9c2">
 
 
 
