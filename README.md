@@ -16,7 +16,7 @@ Revision History
 
 
 
-<img width="479" alt="image" src="https://github.com/vundavry/waph-team31/assets/156153374/30cc84ba-2492-4415-9272-4f37ee3d3f7d">
+<img width="700" alt="image" src="https://github.com/vundavry/waph-team31/assets/156153374/30cc84ba-2492-4415-9272-4f37ee3d3f7d">
 
 <img width="479" alt="image" src="https://github.com/vundavry/waph-team31/assets/156153374/9ca1f11e-d084-4681-89c7-ac2b7b5e0b27">
 
