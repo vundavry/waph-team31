@@ -130,8 +130,19 @@ were added as organization members.
 committed for Sprint 0 submission.Contributions:
 
 Member 1, x commits, y hours, contributed in xxx
+
+
+
 Member 2, x commits, y hours, contributed in xxx
+
+
+
+
 Member 3, x commits, y hours, contributed in xxx
+
+
+
+
 Member 4, x commits, y hours, contributed in xxx
  
 
