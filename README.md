@@ -154,10 +154,16 @@ We are incorporating the contents of the SQL files and the entire source code of
 **form.php:**
 
 <!DOCTYPE html>
+
 <html lang='en'>
+
 <head>
 <meta charset="utf-8">
 <title>WAPH-TEAM31 Login page</title>
+
+
+
+ 
 <script type="text/javascript">
 	function displayTime() {
 		document.getElementById('digit-clock').innerHTML = "Current time:" + new Date();
