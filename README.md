@@ -1,7 +1,6 @@
-**
-WAPH-Web Application Programming and Hack- ing
+**WAPH-Web Application Programming and Hack- ing**
 Instructor: Dr. Phu Phung
-Mini Facebook - Project Team: 31**
+Mini Facebook - Project Team: 31
 Team members
 1.	Rithu Reddy Vundavelli – vundavry@mail.uc.edu
 2.	Srujana Reddy Vadagandla – vadagasy@mail.uc.edu
