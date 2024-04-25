@@ -1,4 +1,3 @@
-# waph-team31
 
 WAPH-Web Application Programming and Hack- ing
 Instructor: Dr. Phu Phung
@@ -204,4 +203,4 @@ index.php:
 ?>
 <a href="logout.php">logout</a>
 
-![image](https://github.com/vundavry/waph-team31/assets/156153374/4a8f7483-1b43-4fe8-82a3-463bffaf7424)
+![image](https://github.com/vundavry/waph-team31/assets/156153374/989c0a97-d398-47d1-8267-31da64356dfa)
