@@ -96,7 +96,8 @@ Team Leader: Rithu Reddy Vundavelli
 
 
  
-Software Process Management
+**Software Process Management**
+
 Here is the passage mentioning that the team follows the Scrum methodology:
 
 Our team followed the Scrum methodology, which emphasizes collaboration, adaptability, and transparency for effective project management. Sprint 0 served as the foundational phase where the groundwork was laid for the entire project. Each team member had clearly defined responsibilities to maximize efficiency.  
@@ -107,10 +108,10 @@ Collaboration was crucial as team members worked both individually and collectiv
 
 By adhering to Scrum principles and fostering a collaborative environment, our team navigated the complexities of software development with agility and cohesion, ultimately delivering high-quality outcomes.Scrum process
 
-Sprint 0
+**Sprint 0**
 
-Duration: 19/03/2024-DD/MM/YYYY
-Overall team Completed Tasks:
+Duration:19/03/2024-DD/MM/YYYY
+**Overall team Completed Tasks:**
 1. An organization named waph-team31 was created on GitHub, and other members, including phung-waph, 
 were added as organization members.
 2. Member contributions to the team 31 organization:
@@ -134,9 +135,9 @@ Member 3, x commits, y hours, contributed in xxx
 Member 4, x commits, y hours, contributed in xxx
  
 
-Appendix
+**Appendix**
 We are incorporating the contents of the SQL files and the entire source code of our PHP files within this submission.
-form.php:
+**form.php:**
 
 <!DOCTYPE html>
 <html lang='en'>
@@ -168,7 +169,7 @@ form.php:
 
 
 
-index.php:
+**index.php:**
 
 <?php
 	session_start();
