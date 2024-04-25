@@ -1,7 +1,7 @@
-
+**
 WAPH-Web Application Programming and Hack- ing
 Instructor: Dr. Phu Phung
-Mini Facebook - Project Team: 31
+Mini Facebook - Project Team: 31**
 Team members
 1.	Rithu Reddy Vundavelli – vundavry@mail.uc.edu
 2.	Srujana Reddy Vadagandla – vadagasy@mail.uc.edu
@@ -14,7 +14,7 @@ Revision History
 
 Date	Version	Description 23/03/2024		0.1		Init draft
  
-Overview
+**Overview**
 
 The WAPH Team Project aims to create a scaled-down version of Facebook, dubbed "miniFacebook," with a strong emphasis on full-stack web development and secure coding practices. The project adopts an agile methodology, specifically utilizing Scrum techniques. 
 
@@ -28,25 +28,25 @@ Database
 Security analysis
 Here's a paraphrased version with the same side headings:
 
-Session Management:
+**Session Management:**
 The project ensures secure session management by implementing session cookie expiration after 15 minutes, securing cookies, and enabling site-wide accessibility.
 
-Authentication:
+**Authentication:**
 User credentials are verified through the checklogin_mysql() function, which securely queries the database to validate the provided username and password combination.
 
-Session Hijacking Prevention:
+**Session Hijacking Prevention:**
 To mitigate session hijacking attempts, the code compares the user agent of the current request with the one stored in the session.
 
-Security Programming Principles Applied:
+**Security Programming Principles Applied:**
 Least Privilege: Access to sensitive content is granted only after user authentication.
 Input Validation: User inputs are sanitized and validated using htmlentities() to prevent cross-site scripting (XSS) attacks.
 Secure Password Storage: Passwords are securely stored using MD5 hashing.
-
-Database Security Principles:
+**
+Database Security Principles:**
 Prepared Statements: SQL injection attacks are prevented through the use of prepared statements.
 Minimal Privileges: The database user (waph_team31) has limited privileges (SELECT) to mitigate risks.
-
-Code Robustness and Defense:
+**
+Code Robustness and Defense:**
 Error Handling: Database connection errors are checked and handled appropriately.
 Session Management: Sessions are destroyed, and users are redirected to the login page if authentication fails. Cookie parameters are set to be secure, HttpOnly, and limited to the specified path.
 Defenses Against Known Attacks:
@@ -55,7 +55,7 @@ SQL Injection: Prepared statements (stmt->bind_param()) are utilized to prevent 
 CSRF: While not explicitly addressed, implementing CSRF tokens would enhance security against cross-site request forgery attacks.
 Session Hijacking: User agent comparison ($_SERVER['HTTP_USER_AGENT']) is performed to detect session hijacking attempts.
 
-Team Screenshots:
+**Team Screenshots:**
 Team Leader: Rithu Reddy Vundavelli
 1. A screenshot demo for the login system working on the HTTPS team’s local domain
 
