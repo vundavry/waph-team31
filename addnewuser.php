@@ -1,19 +1,31 @@
 <?php  
   require "database.php";
-  $username = $_POST["username"];
-  $password = $_POST["password"];
-  $Fullname = $_POST["fullname"]; 
-  $Email = $_POST["additional_email"];  
-  if (isset($username) && isset($password) && isset($Fullname) && isset($Email)){
-    if(addnewuser($username,$password,$Fullname,$Email)){
-    echo "Debug> got username=$username;password=$password";
-    echo "<script>alert('Registration succeed!')</script>";
-    }else{
-      echo "<script>alert('Registration failed!')</script>";
+
+// Get user input
+$username = $_POST["username"];
+$password = $_POST["password"];
+$Fullname = $_POST["fullname"]; 
+$Email = $_POST["additional_email"];
+$is_superuser = $_POST["is_superuser"] == "yes"; // Check if the user is a superuser
+echo($is_superuser);
+// Check if all required fields are set
+if (isset($username) && isset($password) && isset($Fullname) && isset($Email)){
+    // If the user is a superuser, redirect to superform.php
+    if ($is_superuser) {
+        header("Location: superform.php");
+        exit;
+    } else {
+        // Regular user registration
+        if(addnewuser($username, $password, $Fullname, $Email)){
+            echo "Debug> got username=$username;password=$password";
+            echo "<script>alert('Registration succeed!')</script>";
+        } else {
+            echo "<script>alert('Registration failed!')</script>";
+        }
     }
-  }else{
+} else {
     echo "<script>alert('No username/password provided!')</script>";
-  }
+}
 ?>
 
 <!DOCTYPE html>
