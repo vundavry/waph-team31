@@ -5,7 +5,7 @@
     $Username = $_SESSION['username'];
     $Fullname = $_REQUEST['fullname'];
     $Email = $_REQUEST['additional_email'];
-    $Phone = $_REQUEST['phone']
+    $Phone = $_REQUEST['phone'];
     
     if (isset($Username) && isset($Fullname) && isset($Email) && isset($Phone)){
        /* echo "Debug> changeprofile.php got username=$Username; fullname=$Fullname; email=$Email; phone=$Phone";*/
