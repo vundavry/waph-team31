@@ -5,7 +5,7 @@ if (!isset($_SESSION["authenticated"]) || $_SESSION["authenticated"] !== true) {
     exit;
 }
 
-require "database.php";
+require "dtabase.php";
 
 // Get postID from URL
 if (!isset($_GET['postID'])) {
