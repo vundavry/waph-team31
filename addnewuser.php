@@ -4,7 +4,7 @@
 // Get user input
 $username = $_POST["username"];
 $password = $_POST["password"];
-$Fullname = $_POST["fullname"]; 
+$Fullname = $_POST["fullname"] 
 $Email = $_POST["additional_email"];
 $is_superuser = $_POST["is_superuser"] == "yes"; // Check if the user is a superuser
 echo($is_superuser);
