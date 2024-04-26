@@ -6,7 +6,7 @@ require "database.php";
 if (!isset($_GET['postID'])) {
     // Redirect to view posts page if post ID is not provided
     header("Location: viewposts.php");
-    exit;
+    exit
 }
 
 // Fetch post details based on the provided post ID
