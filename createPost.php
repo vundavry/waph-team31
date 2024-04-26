@@ -4,7 +4,7 @@ session_start();
 // Check if user is authenticated
 if (!isset($_SESSION["authenticated"]) || $_SESSION["authenticated"] !== true) {
     header("Location: form.php");
-    exit;
+    exit
 }
 
 // Include necessary files
