@@ -28,7 +28,6 @@ Throughout the project, the team works collectively, leveraging their collective
 System Analysis
 Database
 Security analysis
-Here's a paraphrased version with the same side headings:
 
 **Session Management:**
 The project ensures secure session management by implementing session cookie expiration after 15 minutes, securing cookies, and enabling site-wide accessibility.
