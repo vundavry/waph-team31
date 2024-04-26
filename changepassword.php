@@ -7,7 +7,7 @@
 		echo "<script>alert('CSRF Attack is detected!')</script>";
 		die();
 	}  
-	$username = $_SESSION["username"];
+	$username =  $_SESSION["username"];
 	$password = $_REQUEST["newpassword"]; 
 	if (isset($username) and isset($password)){
 		echo "Debug> changepassword.php got username=$username;newpassword=$password";
